@@ -1,0 +1,12 @@
+Copyright © 2026 John M. Willis and Quantum Powered Security, Inc.
+
+This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+Under this license, you are free to:
+
+- Share the material in any medium or format  
+- Adapt, remix, transform, and build upon the material  
+- Use the material for any purpose, including commercial use  
+
+Attribution is required as specified in the license:  
+https://creativecommons.org/licenses/by/4.0/
