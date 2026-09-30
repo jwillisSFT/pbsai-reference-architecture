@@ -39,6 +39,7 @@ body:
     attributes:
       label: Issue Category
       options:
+        - A2A Interoperability Concern
         - Architecture Defect
         - Architecture Ambiguity
         - Domain or Control Gap
