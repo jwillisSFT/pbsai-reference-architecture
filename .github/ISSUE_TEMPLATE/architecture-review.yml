@@ -1,0 +1,75 @@
+name: PBSAI Architecture Review Comment
+description: Submit technical feedback on the PBSAI reference architecture
+title: "[Architecture Review]: "
+labels: ["review"]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reviewing PBSAI.
+
+        GitHub Issues are used for public technical review of the PBSAI
+        reference architecture. Submission of an issue does not modify the
+        authoritative PBSAI architecture or confer governance or change authority.
+
+        **Do not report exploitable security vulnerabilities through this form.**
+        Use the repository's private vulnerability-reporting mechanism instead.
+
+  - type: input
+    id: artifact
+    attributes:
+      label: PBSAI Artifact
+      description: Identify the architecture document, domain, control catalog, mapping, or other artifact involved.
+      placeholder: e.g. PBSAI V2 - Domain C - ICAM.pdf
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section, Control, or Reference
+      description: Provide the relevant section, control identifier, mapping entry, or other reference where applicable.
+      placeholder: e.g. Section 4.2 or control identifier
+    validations:
+      required: false
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Issue Category
+      options:
+        - Architecture Defect
+        - Architecture Ambiguity
+        - Domain or Control Gap
+        - Control Mapping Concern
+        - Interoperability Concern
+        - Context / Output Contract Concern
+        - Evidence or Provenance Concern
+        - Security Architecture Concern
+        - Governance / Execution Boundary Concern
+        - Implementation Experience
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the issue, observation, or implementation experience.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Architectural or Implementation Impact
+      description: Explain why this matters to the architecture, controls, interoperability, or implementation.
+    validations:
+      required: false
+
+  - type: textarea
+    id: proposed
+    attributes:
+      label: Proposed Resolution
+      description: Suggested clarification, architectural change, control change, mapping correction, or other resolution.
