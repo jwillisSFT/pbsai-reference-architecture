@@ -200,6 +200,7 @@ GitHub Issues may be used for:
 * Architecture Ambiguity
 * Domain or Control Gap
 * Control Mapping Concern
+* A2A Interoperability Concern
 * Interoperability Concern
 * Context / Output Contract Concern
 * Evidence or Provenance Concern
